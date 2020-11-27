@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.card_div{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Cardiv{
+  animation: transitionOut 3.10s;
+}
+@keyframes transitionOut{
+  from{
+  opacity: 0;
+  transform: translateX(10px);
+  }
+  to{
+   opacity: 1;
+   transform: translateX(0);
+  }
+}
+.card-img-top{
+  animation: transitionOut 3.10s;
+}
+@keyframes transitionOut{
+  from{
+  opacity: 0;
+  transform: translateX(10px);
+  }
+  to{
+   opacity: 1;
+   transform: translateX(0);
+  }
+}
+.navbar{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.toggler_btn{
+  font-size: 20px;
+}
+.row-margin-05 { margin-top: 0.5em; }
+.row-margin-10 { margin-top: 1.0em; }
+.row-margin-20 { margin-top: 2.0em; }
+.row-margin-30 { margin-top: 3.0em; }
+.row-margin-30 {grid-row-gap: 10px; }
+
+
